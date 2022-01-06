@@ -1,17 +1,7 @@
 #!/bin/bash
 #root images
-`for file in images/*.jpg; do convert "$file" -resize 50% "${file%.*}-thumb.jpg"; done`
-`for file in images/*.png; do convert "$file" -resize 50% "${file%.*}-thumb.png"; done`
-#blog images
-`for file in images/blog/*.jpg; do convert "$file" -resize 50% "${file%.*}-thumb.jpg"; done`
-`for file in images/blog/*.png; do convert "$file" -resize 50% "${file%.*}-thumb.png"; done`
-#about images
-`for file in images/about/*.jpg; do convert "$file" -resize 50% "${file%.*}-thumb.jpg"; done`
-`for file in images/about/*.png; do convert "$file" -resize 50% "${file%.*}-thumb.png"; done`
-
-# make a webp versions 
-`for file in images/*; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done`
-`for file in images/blog/*; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done`
-`for file in images/about/*; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done`
-
+`for file in $(find images -name '*.jpg' not -name '*-thumb.jpg'); do convert "$file" -resize 50% "${file%.*}-thumb.jpg"; done`
+`for file in $(find images -name '*.png') not -name '*-thumb.jpg'); do convert "$file" -resize 50% "${file%.*}-thumb.png"; done`
+`for file in $(find images -name '*.jpg'); do cwebp -q 80 "$file" -o "${file%.*}.webp"; done`
+`for file in $(find images -name '*.png'); do cwebp -q 80 "$file" -o "${file%.*}.webp"; done`
 
