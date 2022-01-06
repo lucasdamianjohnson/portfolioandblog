@@ -5,10 +5,13 @@
 #blog images
 `for file in images/blog/*.jpg; do convert "$file" -resize 50% "${file%.*}-thumb.jpg"; done`
 `for file in images/blog/*.png; do convert "$file" -resize 50% "${file%.*}-thumb.png"; done`
+#about images
+`for file in images/about/*.jpg; do convert "$file" -resize 50% "${file%.*}-thumb.jpg"; done`
+`for file in images/about/*.png; do convert "$file" -resize 50% "${file%.*}-thumb.png"; done`
 
-
+# make a webp versions 
 `for file in images/*; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done`
 `for file in images/blog/*; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done`
-
+`for file in images/about/*; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done`
 
 
