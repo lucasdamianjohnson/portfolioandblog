@@ -1,1 +1,0 @@
-{"pageProps":{"data":{"title":"Test blog post","description":"Post desc","date":"2020-10-01","id":"test"},"content":"\r\n# Sup\r\n\r\n- sup \r\n    - sup again\r\n\r\n```js\r\n\r\nconsole.log(\"hello\");\r\n\r\n```\r\n\r\n\r\n[An Internal Link](/posts/newthing)","id":"test"},"__N_SSG":true}

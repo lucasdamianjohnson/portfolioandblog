@@ -1,1 +1,0 @@
-{"pageProps":{"data":{"title":"Build an awesome Next.js blog","description":"Post desc","date":"2020-10-01","id":"otherthing"},"content":"\r\n# We're building an awesome Next.js blog using Markdown.\r\n\r\n- sup \r\n    - sup again\r\n\r\n```js\r\n\r\nconsole.log(\"hello agian\");\r\n\r\n```","id":"otherthing"},"__N_SSG":true}
