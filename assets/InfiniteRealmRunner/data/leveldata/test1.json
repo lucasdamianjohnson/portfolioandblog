@@ -1,0 +1,162 @@
+{
+  "name": "Test Level",
+  "modelid": "testworld1",
+
+  "assets": {
+    "levelModel": {
+      "modelFolder": "assets/levels/3/",
+      "modelName": "3.babylon",
+      "animatedTextures": [
+        {
+          "turl": "somehwere.png",
+          "offset": 0.24,
+          "delay": 50
+        }
+      ]
+    },
+
+    "objects": {
+      "models": [
+        {
+          "id": "dashpowerup",
+          "modelFolder": "assets/objects/dash/",
+          "modelName": "dash.babylon",
+          "animate": {
+            "offset": 0.1,
+            "delay": 1
+          }
+        },
+        {
+          "id": "jumppad1",
+          "modelFolder": "assets/objects/jumppad/",
+          "modelName": "jumppad.babylon"
+        }
+      ],
+      "sprites": [
+        {
+          "id": "dashpowerup",
+          "location": "assets/objects/dash/texture_1.png",
+          "capacity": 100,
+          "widthScale": 1,
+          "heightScale": 1,
+          "animate": {
+            "height": 16,
+            "width": 16,
+            "delay": 1
+          }
+        }
+      ]
+    }
+  },
+  "environment": {
+    "skybox": {
+      "folder": "/skybox/starsystem/",
+      "textures": [
+        "/skybox/starsystem/star-systemstars.png",
+        "/skybox/starsystem/star-systemstars.png",
+        "/skybox/starsystem/star-systemfront.png",
+        "/skybox/starsystem/star-systemstars.png",
+        "/skybox/starsystem/star-systemstars.png",
+        "/skybox/starsystem/star-systemstars.png"
+      ]
+    }
+  },
+
+  "resetPlanes": [
+    {
+      "position": {
+        "x": 0,
+        "y": -10,
+        "z": 70
+      },
+      "width": "5",
+      "length": "2000"
+    }
+  ],
+
+  "objects": [
+    {
+      "className": "Dash",
+      "type": "dash",
+      "position": {
+        "x": -1,
+        "y": 2,
+        "z": 20
+      },
+      "rotation": {
+        "x": -1,
+        "y": 2,
+        "z": 20
+      },
+      "modelid": "dashpowerup",
+      "duration": 300
+    },
+
+    {
+      "className": "Dash",
+      "type": "dash",
+      "position": {
+        "x": -1,
+        "y": 2,
+        "z": 40
+      },
+      "rotation": {
+        "x": -1,
+        "y": 2,
+        "z": 20
+      },
+      "modelid": "dashpowerup",
+      "duration": 300
+    },
+
+    {
+      "className": "JumpPad",
+      "type": "jumppad",
+      "velocity": 0.9,
+      "position": {
+        "x": -0.5,
+        "y": 2,
+        "z": 295
+      },
+      "rotation": {
+        "x": -1,
+        "y": 2,
+        "z": 20
+      },
+      "modelid": "jumppad1",
+      "velocity": ".5"
+    },
+
+    {
+      "type": "pointorb",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -1,
+        "y": 2,
+        "z": 20
+      },
+      "modelid": "pointorb1",
+      "points": "10"
+    },
+
+    {
+      "type": "normal",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -1,
+        "y": 2,
+        "z": 20
+      },
+      "modelid": "checkpoint1",
+      "difficulty": "normal"
+    }
+  ]
+}

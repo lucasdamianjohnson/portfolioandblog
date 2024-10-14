@@ -1,0 +1,14 @@
+{
+  "sfx": [],
+  "music": [
+    {
+      "ID": "levelone",
+      "path": "//sound/music/lvlone.mp3",
+      "defaultGain": 1,
+      "playBackRate": 1,
+      "loop": true,
+      "autoStart": true,
+      "loopDelay": 300
+    }
+  ]
+}

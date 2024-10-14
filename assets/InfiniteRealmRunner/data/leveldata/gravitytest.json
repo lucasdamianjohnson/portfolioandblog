@@ -1,0 +1,184 @@
+{
+  "name": "Test Level",
+  "modelid": "testworld1",
+
+  "assetData": {
+    "levelModelId": "gravitytest1",
+    "modelIds": ["dashpowerup", "jumppad1"],
+    "spriteIds": ["gravityswitch"]
+  },
+  "environment": {
+    "skybox": {
+      "folder": "/skybox/starsystem/",
+      "textures": [
+        "/skybox/starsystem/star-systemstars.png",
+        "/skybox/starsystem/star-systemstars.png",
+        "/skybox/starsystem/star-systemfront.png",
+        "/skybox/starsystem/star-systemstars.png",
+        "/skybox/starsystem/star-systemstars.png",
+        "/skybox/starsystem/star-systemstars.png"
+      ]
+    }
+  },
+  "resetPlanes": [
+    {
+      "position": {
+        "x": 0,
+        "y": -10,
+        "z": 70
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "width": "5",
+      "length": "2000"
+    }
+  ],
+
+  "objects": [
+    {
+      "className": "GravitySwitch",
+      "type": "gravityswitch",
+      "position": {
+        "x": 0,
+        "y": 2,
+        "z": 10
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "trackY": 6,
+      "spriteid": "gravityswitch",
+      "direction": "L",
+      "facing": "L"
+    },
+
+    {
+      "className": "GravitySwitch",
+      "type": "gravityswitch",
+      "position": {
+        "x": 0,
+        "y": 2,
+        "z": 20
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "trackX": 0,
+      "spriteid": "gravityswitch",
+      "direction": "U",
+      "facing": "U"
+    },
+
+    {
+      "className": "GravitySwitch",
+      "type": "gravityswitch",
+      "position": {
+        "x": -7,
+        "y": 6,
+        "z": 20
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "trackX": 0,
+      "spriteid": "gravityswitch",
+      "direction": "U",
+      "facing": "L"
+    },
+    {
+      "className": "GravitySwitch",
+      "type": "gravityswitch",
+      "position": {
+        "x": 0,
+        "y": 10,
+        "z": 30
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "trackY": 6,
+      "spriteid": "gravityswitch",
+      "direction": "R",
+      "facing": "L"
+    },
+    {
+      "className": "GravitySwitch",
+      "type": "gravityswitch",
+      "position": {
+        "x": 9,
+        "y": 6,
+        "z": 40
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "trackX": 0,
+      "spriteid": "gravityswitch",
+      "direction": "D",
+      "facing": "L"
+    },
+
+    {
+      "className": "JumpPad",
+      "type": "jumppad",
+      "velocity": 0.9,
+      "position": {
+        "x": -0.5,
+        "y": 2,
+        "z": 295
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "modelid": "jumppad1",
+      "velocity": ".5"
+    },
+
+    {
+      "type": "pointorb",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "modelid": "pointorb1",
+      "points": "10"
+    },
+
+    {
+      "type": "normal",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "modelid": "checkpoint1",
+      "difficulty": "normal"
+    }
+  ]
+}
