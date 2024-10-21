@@ -1,0 +1,302 @@
+{
+  "assets": {
+    "levelModels": {
+      "1-house-carpet-floor": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+        "name": "House Carpet Floor",
+
+        "type": "track",
+        "modelFolder": "assets/models/1/house/carpetfloor/",
+        "modelName": "carpetfloor.babylon",
+        "animatedTextures": []
+      },
+      "1-house-wood-floor": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+        "name": "House Wood Floor",
+        "type": "floor",
+        "modelFolder": "assets/models/1/house/woodfloor/",
+        "modelName": "woodfloor.babylon",
+        "animatedTextures": []
+      },
+      "1-house-wall-bottom": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+        "name": "House Wall Bottom",
+        "type": "wall",
+        "modelFolder": "assets/levels/levelone/models/",
+        "modelName": "house-wallpanelbottom.babylon",
+        "animatedTextures": []
+      },
+      "1-house-wall-outside": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+        "name": "House Wall Outside",
+        "type": "wall",
+        "modelFolder": "assets/models/1/house/outsidewall/",
+        "modelName": "outsidewall.babylon",
+        "animatedTextures": []
+      },
+      "1-house-wall-outside-half": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+        "name": "House Wall Outside Half",
+        "type": "wall",
+        "modelFolder": "assets/models/1/house/outsidewallhalf/",
+        "modelName": "outsidewallhalf.babylon",
+        "animatedTextures": []
+      },
+      "1-house-roof-tile": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+
+        "name": "House Roof Tile",
+        "type": "wall",
+        "modelFolder": "assets/models/1/house/rooftile/",
+        "modelName": "rooftile.babylon",
+        "animatedTextures": []
+      },
+      "1-house-wall-outside-quater": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+
+        "name": "House Wall Outside 1/4",
+        "type": "wall",
+        "modelFolder": "assets/models/1/house/outsidewallparts/",
+        "modelName": "outsidewallquater.babylon",
+        "animatedTextures": []
+      },
+      "1-house-wall-outside-quater-half": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+
+        "name": "House Wall Outside 1/4 1/2",
+        "type": "wall",
+        "modelFolder": "assets/models/1/house/outsidewallparts/",
+        "modelName": "outsidewallquaterhalf.babylon",
+        "animatedTextures": []
+      },
+      "1-house-wall-top": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+        "name": "House Wall Top",
+        "type": "wall",
+        "modelFolder": "assets/levels/levelone/models/",
+        "modelName": "house-wallpaneltop.babylon",
+        "animatedTextures": []
+      },
+      "1-house-window": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+        "name": "House Window",
+        "type": "window",
+        "modelFolder": "assets/levels/levelone/models/",
+        "modelName": "house-window.babylon",
+        "animatedTextures": []
+      },
+      "1-house-ceiling": {
+        "ManagedSPS": true,
+        "InitCapacity": 1000,
+        "forms": "dockhouse",
+        "name": "House Ceiling",
+        "type": "ceiling",
+        "modelFolder": "assets/models/1/house/ceilingtile/",
+        "modelName": "ceilingtile.babylon",
+        "animatedTextures": []
+      },
+      "1-house-ceiling-lamp": {
+        "ManagedSPS": true,
+        "InitCapacity": 20,
+        "forms": "dockhouse",
+        "name": "House Ceiling Lamp",
+        "type": "lightsource",
+        "modelFolder": "assets/models/1/house/ceilinglamp/",
+        "modelName": "ceilinglamp.babylon",
+        "animatedTextures": []
+      },
+
+      "1-pil-30": {
+        "ManagedSPS": true,
+        "InitCapacity": 1024,
+        "forms": "docktrack",
+        "name": "Dock Pillar 30 High",
+        "type": "pillar",
+        "modelFolder": "assets/models/1/pillars/",
+        "modelName": "dockpillar1.babylon",
+        "animatedTextures": []
+      },
+
+      "1-pf-10": {
+        "name": "10 Long Dock Track",
+        "type": "track",
+        "modelFolder": "assets/levels/levelone/models/",
+        "modelName": "10long.babylon",
+        "animatedTextures": []
+      },
+      "1-pf-6": {
+        "name": "6 Long Dock Track",
+        "type": "track",
+        "modelFolder": "assets/levels/levelone/models/",
+        "modelName": "6long.babylon",
+        "animatedTextures": []
+      },
+      "1-pf-4": {
+        "name": "4 Long Dock Track",
+        "type": "track",
+        "modelFolder": "assets/levels/levelone/models/",
+        "modelName": "4long.babylon",
+        "animatedTextures": []
+      },
+      "1-pf-2": {
+        "ManagedSPS": true,
+        "InitCapacity": 512,
+        "forms": "docktrack",
+        "name": "2 Long Dock Track",
+        "type": "track",
+        "modelFolder": "assets/levels/levelone/models/",
+        "modelName": "2long.babylon",
+        "animatedTextures": []
+      },
+
+      "gravitytest1": {
+        "modelFolder": "assets/levels/gravitytest/",
+        "modelName": "gravitytest.babylon",
+        "animatedTextures": [
+          {
+            "turl": "somehwere.png",
+            "offset": 0.24,
+            "delay": 50
+          }
+        ]
+      },
+      "test1": {
+        "modelFolder": "assets/levels/3/",
+        "modelName": "3.babylon",
+        "animatedTextures": [
+          {
+            "turl": "somehwere.png",
+            "offset": 0.24,
+            "delay": 50
+          }
+        ]
+      }
+    },
+
+    "objects": {
+      "models": {
+        "door1": {
+          "id": "door1",
+          "modelFolder": "assets/objects/doors/1/",
+          "modelName": "door1.babylon",
+          "capacity": 10
+        },
+        "door2": {
+          "id": "door2",
+          "modelFolder": "assets/objects/doors/1/",
+          "modelName": "door2.babylon",
+          "capacity": 10
+        },
+
+        "dashpowerup": {
+          "id": "dashpowerup",
+          "modelFolder": "assets/objects/dash/",
+          "modelName": "dash.babylon",
+          "capacity": 100
+        },
+        "jumppad1": {
+          "id": "jumppad1",
+          "modelFolder": "assets/objects/jumppad/",
+          "modelName": "jumppad.babylon",
+          "capacity": 100
+        },
+        "checkpoint": {
+          "id": "checkpoint",
+          "modelFolder": "assets/objects/checkpoint/",
+          "modelName": "checkpoint.babylon",
+          "capacity": 5
+        },
+        "pointorb": {
+          "id": "pointorb",
+          "modelFolder": "assets/objects/pointorb/",
+          "modelName": "pointorb.babylon",
+          "capacity": 200
+        }
+      },
+      "sprites": {
+        "pointorb": {
+          "id": "pointorb",
+          "location": "assets/sprites/pointorb/pointorb.png",
+          "capacity": 10000,
+          "widthScale": 1,
+          "heightScale": 1,
+          "animate": {
+            "height": 16,
+            "width": 16,
+            "delay": 1,
+            "startingIndex": 0
+          }
+        },
+
+        "dashpowerup": {
+          "id": "dashpowerup",
+          "location": "assets/objects/dash/texture_1.png",
+          "capacity": 100,
+          "widthScale": 2,
+          "heightScale": 2,
+          "animate": {
+            "height": 16,
+            "width": 16,
+            "delay": 1,
+            "startingIndex": 0
+          }
+        },
+
+        "gravityswitch": {
+          "id": "gravityswitch",
+          "location": "assets/sprites/gravityswitch/left.png",
+          "capacity": 1000,
+          "widthScale": 1,
+          "heightScale": 1,
+          "animate": {
+            "height": 16,
+            "width": 16,
+            "delay": 1,
+            "startingIndex": 0
+          }
+        }
+      }
+    },
+    "environment": {
+      "models": {
+        "1-mtns": {
+          "modelFolder": "assets/models/1/terrain/",
+          "modelName": "mtn1.babylon"
+
+        }
+      },
+
+      "skybox": {
+        "folder": "/skybox/starsystem/",
+        "textures": [
+          "/skybox/starsystem/star-systemstars.png",
+          "/skybox/starsystem/star-systemstars.png",
+          "/skybox/starsystem/star-systemfront.png",
+          "/skybox/starsystem/star-systemstars.png",
+          "/skybox/starsystem/star-systemstars.png",
+          "/skybox/starsystem/star-systemstars.png"
+        ]
+      }
+    }
+  }
+}

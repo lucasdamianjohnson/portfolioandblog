@@ -1,0 +1,18 @@
+{
+     "icons": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+     ],
+     "profiles": [
+          {
+               "location": "/private/userdata/profiles/1",
+               "name": "luke",
+               "id": "1",
+               "profileIconId": 5
+          }
+     ]
+}

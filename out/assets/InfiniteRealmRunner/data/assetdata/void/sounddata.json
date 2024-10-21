@@ -1,0 +1,21 @@
+{
+
+
+    "sfx" : [],
+    "music" : [
+        {
+            "ID": "chill",
+            "path": "//sound/music/chill.mp3",
+            "defaultGain" : 1,
+            "playBackRate" : 1,
+            "loop" : true,
+            "autoStart" : true,
+            "loopDelay" : 300 
+          }
+    ]
+
+
+
+
+
+}

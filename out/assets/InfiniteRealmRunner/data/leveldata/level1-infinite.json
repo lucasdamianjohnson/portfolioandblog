@@ -1,0 +1,60 @@
+{
+  "name": "Test Level",
+  "type": "infinite",
+  "modelid": "testworld1",
+  "levelid": "level1",
+  "player": {
+    "canControl": true,
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 5
+    },
+    "resetPosition": {
+      "x": 0,
+      "y": 1,
+      "z": 10
+    },
+    "baseSpeed": "default"
+  },
+  "assets": {
+    "environmentModelIds": ["1-mtns"],
+    "levelModelIds": [
+      "1-pf-2",
+      "1-pil-30",
+      "1-house-carpet-floor",
+      "1-house-wood-floor",
+      "1-house-wall-bottom",
+      "1-house-wall-top",
+      "1-house-window",
+      "1-house-ceiling",
+      "1-house-ceiling-lamp",
+      "1-house-wall-outside",
+      "1-house-wall-outside-quater",
+      "1-house-wall-outside-quater-half",
+      "1-house-roof-tile"
+    ],
+    "modelIds": [
+      "dashpowerup",
+      "jumppad1",
+      "checkpoint",
+      "pointorb",
+      "door1",
+      "door2"
+    ],
+    "spriteIds": ["gravityswitch", "pointorb"]
+  },
+  "environment": {
+    "skybox": {
+      "folder": "assets/skybox/greysky/",
+      "textures": [
+        "assets/skybox/greysky/1.png",
+        "assets/skybox/greysky/1.png",
+        "assets/skybox/greysky/2.png",
+        "assets/skybox/greysky/1.png",
+        "assets/skybox/greysky/1.png",
+        "assets/skybox/greysky/1.png"
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "assets": {
+    "levelModels": {},
+
+    "objects": {
+      "models": {
+        "door1": {
+          "id": "door1",
+          "modelFolder": "assets/objects/doors/1/",
+          "modelName": "door1.babylon",
+          "capacity": 10
+        },
+        "door2": {
+          "id": "door2",
+          "modelFolder": "assets/objects/doors/1/",
+          "modelName": "door2.babylon",
+          "capacity": 10
+        },
+
+        "dashpowerup": {
+          "id": "dashpowerup",
+          "modelFolder": "assets/objects/dash/",
+          "modelName": "dash.babylon",
+          "capacity": 100
+        },
+        "jumppad1": {
+          "id": "jumppad1",
+          "modelFolder": "assets/objects/jumppad/",
+          "modelName": "jumppad.babylon",
+          "capacity": 100
+        },
+        "checkpoint": {
+          "id": "checkpoint",
+          "modelFolder": "assets/objects/checkpoint/",
+          "modelName": "checkpoint.babylon",
+          "capacity": 5
+        },
+        "pointorb": {
+          "id": "pointorb",
+          "modelFolder": "assets/objects/pointorb/",
+          "modelName": "pointorb.babylon",
+          "capacity": 200
+        }
+      },
+      "sprites": {
+        "pointorb": {
+          "id": "pointorb",
+          "location": "assets/sprites/pointorb/pointorb.png",
+          "capacity": 10000,
+          "widthScale": 1,
+          "heightScale": 1,
+          "animate": {
+            "height": 16,
+            "width": 16,
+            "delay": 1,
+            "startingIndex": 0
+          }
+        },
+
+        "dashpowerup": {
+          "id": "dashpowerup",
+          "location": "assets/objects/dash/texture_1.png",
+          "capacity": 100,
+          "widthScale": 2,
+          "heightScale": 2,
+          "animate": {
+            "height": 16,
+            "width": 16,
+            "delay": 1,
+            "startingIndex": 0
+          }
+        },
+
+        "gravityswitch": {
+          "id": "gravityswitch",
+          "location": "assets/sprites/gravityswitch/left.png",
+          "capacity": 1000,
+          "widthScale": 1,
+          "heightScale": 1,
+          "animate": {
+            "height": 16,
+            "width": 16,
+            "delay": 1,
+            "startingIndex": 0
+          }
+        }
+      }
+    },
+    "environment": {}
+  }
+}
